@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ukuran teks untuk header besar -->
+    <dimen name="header_large_text_size">24sp</dimen>
+
+    <!-- Ukuran teks untuk header kecil -->
+    <dimen name="header_small_text_size">18sp</dimen>
+
+    <!-- Ukuran teks untuk label -->
+    <dimen name="label_text_size">16sp</dimen>
+
+    <!-- Ukuran teks untuk paragraf atau konten utama -->
+    <dimen name="paragraph_text_size">14sp</dimen>
+
+    <!-- Ukuran teks untuk sub-label atau keterangan -->
+    <dimen name="sub_label_text_size">12sp</dimen>
+
+    <!-- Margin umum untuk elemen-elemen dalam layout -->
+    <dimen name="default_margin">16dp</dimen>
+
+    <!-- Padding umum untuk elemen-elemen dalam layout -->
+    <dimen name="default_padding">16dp</dimen>
+
+    <!-- Margin kecil untuk elemen-elemen kecil -->
+    <dimen name="small_margin">8dp</dimen>
+
+    <!-- Padding kecil untuk elemen-elemen kecil -->
+    <dimen name="small_padding">8dp</dimen>
+
+    <!-- Tinggi tombol -->
+    <dimen name="button_height">55dp</dimen>
+
+    <!-- Lebar minimal tombol -->
+    <dimen name="button_min_width">120dp</dimen>
+
+    <!-- Tinggi status bar (biasanya disesuaikan dengan nilai sistem) -->
+    <dimen name="status_bar_height">24dp</dimen>
+
+    <!-- Tinggi toolbar/action bar -->
+    <dimen name="toolbar_height">56dp</dimen>
+</resources>

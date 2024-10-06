@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.MoonProject" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="textInputStyle">@style/AppTheme.TextInputLayoutStyle</item>
+        <item name="editTextStyle">@style/AppTheme.TextInputEditTextStyle</item> <!-- Apply custom EditText style -->
+        <item name="buttonStyle">@style/AppTheme.ButtonStyle</item> <!-- Apply custom Button style -->
+    </style>
+
+    <style name="AppTheme.TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="hintTextColor">@color/primary</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="cursorColor">@color/primary</item>
+    </style>
+
+    <!-- Custom EditText Style with default drawable padding -->
+    <style name="AppTheme.TextInputEditTextStyle" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+
+    <!-- Custom Button Style -->
+    <style name="AppTheme.ButtonStyle" parent="Widget.MaterialComponents.Button"> <!-- Correct parent style -->
+        <item name="android:height">@dimen/button_height</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/primary</item>
+    </style>
+</resources>
